@@ -9,13 +9,13 @@
 module.exports = {
 
 	database: {
-		Model: require('./database/model')
+		Model: require('./lib/database/model')
 	},
 	viewModel: {
-		Page: require('./viewModel/page'),
-		Project: require('./viewModel/project'),
-		Filter: require('./viewModel/filter')
+		Page: require('./lib/viewModel/page'),
+		Project: require('./lib/viewModel/project'),
+		Filter: require('./lib/viewModel/filter')
 	},
-	utils: require('./utils')
+	utils: require('.lib//utils/index')
 
 };
