@@ -14,8 +14,18 @@ module.exports = {
 	viewModel: {
 		Page: require('./lib/viewModel/page'),
 		Project: require('./lib/viewModel/project'),
-		Filter: require('./lib/viewModel/filter')
+		Filter: require('./lib/viewModel/filter'),
+		HbsHelper: require('./lib/viewModel/hbsHelper')
 	},
-	utils: require('.lib//utils/index')
+	utils: {
+		common: require('./lib/utils/index'),
+		Interface: require('./lib/utils/interface'),
+		underscore: require('underscore'),
+		EventProxy: require('eventproxy'),
+		moment: require('moment')
+	},
+	crypto: {
+		MixCrypto: require('./lib/crypto/mixCrypto')
+	}
 
 };
