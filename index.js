@@ -30,7 +30,8 @@ module.exports = {
 	},
 	wechat: {
 		api: require('wechat-api'),
-		pay: require('wechat-pay')
+		pay: require('wechat-pay'),
+		auth: require('wechat-oauth')
 	}
 
 };
