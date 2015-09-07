@@ -34,12 +34,16 @@
     "url": "https://github.com/qtisan/arce/issues"
   },
   "license": "MIT",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "eventproxy": "^0.3.4",
+    "express": "~4.13.1",
     "hbs": "~3.1.0",
+    "moment": "^2.10.3",
     "mysql": "^2.9.0",
     "underscore": "^1.8.3",
-    "moment": "^2.10.3",
-    "express": "~4.13.1"
+    "urllib": "^2.4.0",
+    "wechat-api": "^1.11.0",
+    "wechat-pay": "^0.2.0"
   }
 }

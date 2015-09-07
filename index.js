@@ -22,10 +22,15 @@ module.exports = {
 		Interface: require('./lib/utils/interface'),
 		underscore: require('underscore'),
 		EventProxy: require('eventproxy'),
-		moment: require('moment')
+		moment: require('moment'),
+		urllib: require('urllib')
 	},
 	crypto: {
 		MixCrypto: require('./lib/crypto/mixCrypto')
+	},
+	wechat: {
+		api: require('wechat-api'),
+		pay: require('wechat-pay')
 	}
 
 };
