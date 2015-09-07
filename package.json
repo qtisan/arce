@@ -43,6 +43,7 @@
     "mysql": "^2.9.0",
     "underscore": "^1.8.3",
     "urllib": "^2.4.0",
+    "wechat": "^2.0.1",
     "wechat-api": "^1.11.0",
     "wechat-oauth": "^1.1.0",
     "wechat-pay": "^0.2.0"

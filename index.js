@@ -31,7 +31,9 @@ module.exports = {
 	wechat: {
 		api: require('wechat-api'),
 		pay: require('wechat-pay'),
-		auth: require('wechat-oauth')
+		auth: require('wechat-oauth'),
+		middleware: require('wechat'),
+		proxy: require('./lib/app/wechat/proxy')
 	}
 
 };
