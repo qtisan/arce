@@ -9,8 +9,9 @@
 module.exports = {
 
 	database: {
+		Database: require('./lib/database/database'),
 		Model: require('./lib/database/model')
-	},
+},
 	viewModel: {
 		Page: require('./lib/viewModel/page'),
 		Project: require('./lib/viewModel/project'),
@@ -34,6 +35,7 @@ module.exports = {
 		auth: require('wechat-oauth'),
 		middleware: require('wechat'),
 		proxy: require('./lib/app/wechat/proxy')
-	}
+	},
+	logger: require('./lib/logger')
 
 };
