@@ -13,10 +13,11 @@ module.exports = {
 		Model:    require( './lib/database/model' )
 	},
 	viewModel: {
-		Page:      require( './lib/viewModel/page' ),
-		Project:   require( './lib/viewModel/project' ),
-		Filter:    require( './lib/viewModel/filter' ),
-		HbsHelper: require( './lib/viewModel/hbsHelper' )
+		Page:       require( './lib/viewModel/page' ),
+		Project:    require( './lib/viewModel/project' ),
+		Filter:     require( './lib/viewModel/filter' ),
+		HbsHelper:  require( './lib/viewModel/hbsHelper' ),
+		middleware: require( './lib/viewModel/middleware' )
 	},
 	utils:     {
 		common:     require( './lib/utils/index' ),
@@ -28,8 +29,8 @@ module.exports = {
 		base64:     require( 'base64-min' )
 	},
 	crypto:    {
-		MixCrypto:  require( './lib/crypto/mixCrypto' ),
-		Signer:     require( './lib/crypto/signer' )
+		MixCrypto: require( './lib/crypto/mixCrypto' ),
+		Signer:    require( './lib/crypto/signer' )
 	},
 	wechat:    {
 		api:        require( 'wechat-api' ),
