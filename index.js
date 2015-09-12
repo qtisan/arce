@@ -28,7 +28,8 @@ module.exports = {
 		base64:     require( 'base64-min' )
 	},
 	crypto:    {
-		MixCrypto: require( './lib/crypto/mixCrypto' )
+		MixCrypto:  require( './lib/crypto/mixCrypto' ),
+		Signer:     require( './lib/crypto/signer' )
 	},
 	wechat:    {
 		api:        require( 'wechat-api' ),
