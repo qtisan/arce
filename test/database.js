@@ -2,7 +2,7 @@
  * @module database.js
  * @author qx
  * @date 2015/9/10
- * @function 功能说明
+ * @function 锟斤拷锟斤拷说锟斤拷
  */
 
 var Database = require('../index').database.Database;

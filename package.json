@@ -48,6 +48,7 @@
     "underscore": "^1.8.3",
     "urllib": "^2.4.0",
     "uuid": "^2.0.1",
+    "walk": "^2.3.9",
     "wechat": "^2.0.1",
     "wechat-api": "^1.11.0",
     "wechat-oauth": "^1.1.0",

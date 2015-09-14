@@ -10,7 +10,9 @@ module.exports = {
 
 	database:  {
 		Database: require( './lib/database/database' ),
-		Model:    require( './lib/database/model' )
+		Model:    require( './lib/database/model' ),
+		mongoose: require( 'mongoose' ),
+		utils:    require( './lib/database/utils' )
 	},
 	viewModel: {
 		Page:       require( './lib/viewModel/page' ),
@@ -26,7 +28,8 @@ module.exports = {
 		EventProxy: require( 'eventproxy' ),
 		moment:     require( 'moment' ),
 		urllib:     require( 'urllib' ),
-		base64:     require( 'base64-min' )
+		base64:     require( 'base64-min' ),
+		walk:       require( 'walk' )
 	},
 	crypto:    {
 		MixCrypto: require( './lib/crypto/mixCrypto' ),
