@@ -9,10 +9,11 @@
 module.exports = {
 
 	database:  {
-		Database: require( './lib/database/database' ),
-		Model:    require( './lib/database/model' ),
-		mongoose: require( 'mongoose' ),
-		utils:    require( './lib/database/utils' )
+		Database:    require( './lib/database/database' ),
+		Model:       require( './lib/database/model' ),
+		mongoose:    require( 'mongoose' ),
+		utils:       require( './lib/database/utils' ),
+		IdGenerator: require( './lib/database/idGenerator' )
 	},
 	viewModel: {
 		Page:       require( './lib/viewModel/page' ),
@@ -36,9 +37,9 @@ module.exports = {
 		Signer:    require( './lib/crypto/signer' )
 	},
 	wechat:    {
-		api:        require( 'wechat-api' ),
-		pay:        require( 'wechat-pay' ),
-		auth:       require( 'wechat-oauth' ),
+		Api:        require( 'wechat-api' ),
+		Pay:        require( 'wechat-pay' ),
+		OAuth:      require( 'wechat-oauth' ),
 		middleware: require( 'wechat' ),
 		proxy:      require( './lib/app/wechat/proxy' ),
 		Agent:      require( './lib/app/wechat/agent' ),
