@@ -4,7 +4,7 @@
  * @date 2015/8/27
  * @function 功能说明
  */
-
+var tedious = require('tedious');
 
 module.exports = {
 
@@ -13,7 +13,12 @@ module.exports = {
 		Model:       require( './lib/database/model' ),
 		mongoose:    require( 'mongoose' ),
 		utils:       require( './lib/database/utils' ),
-		IdGenerator: require( './lib/database/idGenerator' )
+		IdGenerator: require( './lib/database/idGenerator' ),
+		sqlServer: {
+			Request: tedious.Request,
+			TYPES: tedious.TYPES,
+			Connection: tedious.Connection
+		}
 	},
 	viewModel: {
 		Page:       require( './lib/viewModel/page' ),
@@ -30,7 +35,8 @@ module.exports = {
 		moment:     require( 'moment' ),
 		urllib:     require( 'urllib' ),
 		base64:     require( 'base64-min' ),
-		walk:       require( 'walk' )
+		walk:       require( 'walk' ),
+		price:      require( './lib/utils/price' )
 	},
 	crypto:    {
 		MixCrypto: require( './lib/crypto/mixCrypto' ),
@@ -45,6 +51,7 @@ module.exports = {
 		Agent:      require( './lib/app/wechat/agent' ),
 		Message:    require( './lib/app/wechat/message' )
 	},
-	logger:    require( './lib/logger' )
+	logger:    require( './lib/logger' ),
+	fault:     require( './lib/utils/fault' )
 
 };
