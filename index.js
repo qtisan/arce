@@ -37,7 +37,8 @@ module.exports = {
 		base64:     require( 'base64-min' ),
 		walk:       require( 'walk' ),
 		price:      require( './lib/utils/price' ),
-		iconv:      require( 'iconv-lite' )
+		iconv:      require( 'iconv-lite' ),
+		ip:         require( 'ip-address' )
 	},
 	crypto:    {
 		MixCrypto: require( './lib/crypto/mixCrypto' ),
