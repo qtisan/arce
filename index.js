@@ -14,6 +14,7 @@ module.exports = {
 		mongoose:    require( 'mongoose' ),
 		utils:       require( './lib/database/utils' ),
 		IdGenerator: require( './lib/database/idGenerator' ),
+		Pool:       require( './lib/database/pool' ),
 		sqlServer: {
 			Request: tedious.Request,
 			TYPES: tedious.TYPES,
