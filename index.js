@@ -37,7 +37,7 @@ module.exports = {
 		urllib:     require( 'urllib' ),
 		base64:     require( 'base64-min' ),
 		walk:       require( 'walk' ),
-		price:      require( './lib/utils/price' ),
+		Price:      require( './lib/utils/price' ),
 		iconv:      require( 'iconv-lite' ),
 		ip:         require( 'ip-address' )
 	},
