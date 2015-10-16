@@ -39,7 +39,8 @@ module.exports = {
 		walk:       require( 'walk' ),
 		Price:      require( './lib/utils/price' ),
 		iconv:      require( 'iconv-lite' ),
-		ip:         require( 'ip-address' )
+		ip:         require( 'ip-address' ),
+		session:    require( 'express-session' )
 	},
 	crypto:    {
 		MixCrypto: require( './lib/crypto/mixCrypto' ),

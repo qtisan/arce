@@ -39,6 +39,7 @@
     "base64-min": "^0.5.2",
     "eventproxy": "^0.3.4",
     "express": "~4.13.1",
+    "express-session": "^1.11.3",
     "hbs": "~3.1.0",
     "iconv-lite": "^0.4.11",
     "ip-address": "^4.2.0",
